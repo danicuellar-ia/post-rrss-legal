@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>TikTok OAuth callback</title>
+<style>
+  body { font: 16px -apple-system, sans-serif; max-width: 640px; margin: 4rem auto; padding: 0 1.5rem; color: #201f1c; }
+  code { background: #f2f0ea; padding: 0.75rem 1rem; display: block; border-radius: 8px; word-break: break-all; margin-top: 1rem; }
+  h1 { font-size: 1.25rem; }
+</style>
+</head>
+<body>
+  <h1>Callback de autorización de TikTok (Post-RRSS)</h1>
+  <p>Copia el valor de <strong>code</strong> de la URL y pégalo donde tu script lo solicite.</p>
+  <code id="out">Leyendo parámetros de la URL…</code>
+  <script>
+    var params = new URLSearchParams(window.location.search);
+    document.getElementById('out').textContent = window.location.href;
+  </script>
+</body>
+</html>
