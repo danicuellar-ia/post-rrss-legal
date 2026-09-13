@@ -1,0 +1,459 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{color-scheme:light}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found]){display:none!important}</style></head><body>
+<title>Privacidad y Términos Post-RRSS TikTok</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Public+Sans:wght@400;500;600&display=swap');
+
+  :root {
+    --bg: #faf9f6;
+    --surface: #ffffff;
+    --ink: #201f1c;
+    --ink-soft: #55524b;
+    --ink-faint: #8a867c;
+    --line: #e6e2d9;
+    --accent: #b0224d;
+    --accent-soft: #f8e6ec;
+    --accent-ink: #7a1636;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #17181a;
+      --surface: #1f2123;
+      --ink: #ece9e2;
+      --ink-soft: #b6b2a8;
+      --ink-faint: #817d73;
+      --line: #34362f;
+      --accent: #ef5f86;
+      --accent-soft: #33212a;
+      --accent-ink: #ffd3e0;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --bg: #17181a;
+    --surface: #1f2123;
+    --ink: #ece9e2;
+    --ink-soft: #b6b2a8;
+    --ink-faint: #817d73;
+    --line: #34362f;
+    --accent: #ef5f86;
+    --accent-soft: #33212a;
+    --accent-ink: #ffd3e0;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "Public Sans", ui-sans-serif, system-ui, sans-serif;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+
+  header.page {
+    margin-bottom: 3rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-soft);
+    padding: 0.35rem 0.7rem;
+    border-radius: 3px;
+    margin-bottom: 1.25rem;
+  }
+
+  h1 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2rem, 4.5vw, 2.75rem);
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    margin: 0 0 0.75rem;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+
+  .dek {
+    font-size: 1.05rem;
+    color: var(--ink-soft);
+    max-width: 56ch;
+    margin: 0 0 1.5rem;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.5rem;
+    font-size: 0.85rem;
+    color: var(--ink-faint);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .meta-row strong { color: var(--ink-soft); font-weight: 600; }
+
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  nav.toc p {
+    margin: 0 0 0.75rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+  }
+
+  nav.toc ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    gap: 0.4rem 1.5rem;
+  }
+
+  nav.toc a {
+    color: var(--ink-soft);
+    text-decoration: none;
+    font-size: 0.92rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  nav.toc a:hover { color: var(--accent-ink); }
+
+  nav.toc .num {
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+
+  section {
+    margin-bottom: 2.75rem;
+    scroll-margin-top: 1.5rem;
+  }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.85rem;
+    margin-bottom: 0.9rem;
+  }
+
+  .section-num {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-size: 1.1rem;
+    color: var(--accent);
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+
+  h2 {
+    font-family: "Source Serif 4", Georgia, serif;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin: 0;
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  section p, section li {
+    color: var(--ink-soft);
+    font-size: 0.98rem;
+    max-width: 66ch;
+  }
+
+  section p { margin: 0 0 0.9rem; }
+
+  ul.clean {
+    margin: 0 0 0.9rem;
+    padding-left: 1.2rem;
+  }
+
+  ul.clean li { margin-bottom: 0.5rem; }
+
+  ul.clean li::marker { color: var(--accent); }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 1.1rem 1.3rem;
+    margin: 1rem 0;
+  }
+
+  .card p:last-child { margin-bottom: 0; }
+
+  .card-label {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+
+  .data-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+    margin: 1rem 0;
+  }
+
+  @media (min-width: 560px) {
+    .data-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  .data-item {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 0.9rem 1.1rem;
+    background: var(--surface);
+  }
+
+  .data-item .k {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    margin-bottom: 0.35rem;
+  }
+
+  .data-item .v { font-size: 0.93rem; color: var(--ink-soft); }
+
+  a.inline { color: var(--accent-ink); text-decoration-color: var(--accent); }
+
+  hr.div {
+    border: none;
+    border-top: 1px solid var(--line);
+    margin: 4rem 0;
+  }
+
+  footer.page {
+    margin-top: 3.5rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--ink-faint);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="page">
+    <span class="eyebrow">Política de privacidad</span>
+    <h1>Post&#8209;RRSS, el publicador automático de Danicuellar.ia (TikTok)</h1>
+    <p class="dek">Esta página explica qué datos usa Post-RRSS para publicar contenido en nuestra propia cuenta de TikTok a través de la Content Posting API, cómo los usa y con quién los comparte.</p>
+    <div class="meta-row">
+      <span><strong>Responsable:</strong> Daniela Cuéllar &mdash; Danicuellar.ia</span>
+      <span><strong>Contacto:</strong> <a class="inline" href="mailto:danicuellar.ai@gmail.com">danicuellar.ai@gmail.com</a></span>
+      <span><strong>Última actualización:</strong> 13 de septiembre de 2026</span>
+    </div>
+  </header>
+
+  <nav class="toc" aria-label="Contenido">
+    <p>En esta página</p>
+    <ol>
+      <li><a href="#que-es"><span class="num">01</span> Qué es Post-RRSS</a></li>
+      <li><a href="#datos"><span class="num">02</span> Qué datos procesa</a></li>
+      <li><a href="#uso"><span class="num">03</span> Cómo se usan los datos</a></li>
+      <li><a href="#comparte"><span class="num">04</span> Con quién se comparten</a></li>
+      <li><a href="#seguridad"><span class="num">05</span> Almacenamiento y seguridad</a></li>
+      <li><a href="#retencion"><span class="num">06</span> Cuánto tiempo se conservan</a></li>
+      <li><a href="#derechos"><span class="num">07</span> Tus derechos y contacto</a></li>
+      <li><a href="#cambios"><span class="num">08</span> Cambios a esta política</a></li>
+      <li><a href="#terminos"><span class="num">09</span> Términos de servicio</a></li>
+    </ol>
+  </nav>
+
+  <section id="que-es">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>Qué es Post-RRSS</h2>
+    </div>
+    <p>Post-RRSS es una herramienta interna de Danicuellar.ia que automatiza la publicación de videos ya grabados y editados por nuestro propio equipo en las cuentas de redes sociales de la marca <strong>Danicuellar.ia</strong>, incluyendo TikTok, mediante la TikTok Content Posting API.</p>
+    <p>El sistema revisa una hoja de cálculo interna de programación de contenido y, cuando un video ya editado tiene su fecha y hora programadas, lo descarga desde nuestro propio Google Drive y lo publica directamente en la cuenta de TikTok de la marca mediante subida de archivo (<code>FILE_UPLOAD</code>), sin depender de una URL pública.</p>
+    <div class="card">
+      <p class="card-label">Importante</p>
+      <p>Post-RRSS no es una app de cara al público: no la usan personas externas, no recibe inicios de sesión de terceros y no interactúa con las cuentas de otros usuarios de TikTok. Publica exclusivamente contenido propio en la cuenta propia de Danicuellar.ia.</p>
+    </div>
+  </section>
+
+  <section id="datos">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>Qué datos procesa</h2>
+    </div>
+    <p>Todo el contenido que procesa Post-RRSS es creado por el propio equipo de Danicuellar.ia. No recopila, lee ni almacena datos personales de seguidores, comentaristas ni de ningún otro usuario final de TikTok.</p>
+    <div class="data-grid">
+      <div class="data-item">
+        <div class="k">Contenido</div>
+        <div class="v">Archivos de video y textos de publicación (captions) redactados por nuestro equipo.</div>
+      </div>
+      <div class="data-item">
+        <div class="k">Credenciales de acceso</div>
+        <div class="v"><code>access_token</code> y <code>refresh_token</code> de OAuth emitidos por TikTok for Developers para autenticar cada publicación en nuestra propia cuenta.</div>
+      </div>
+      <div class="data-item">
+        <div class="k">Metadatos de programación</div>
+        <div class="v">Fecha y hora de publicación, y el estado de cada video (pendiente, publicado, con qué red).</div>
+      </div>
+      <div class="data-item">
+        <div class="k">Resultado de la publicación</div>
+        <div class="v">El enlace público que devuelve TikTok al video ya publicado, guardado para nuestro propio registro.</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="uso">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Cómo se usan los datos</h2>
+    </div>
+    <ul class="clean">
+      <li>Autenticar cada llamada a la Content Posting API de TikTok (<code>video.publish</code>, <code>video.upload</code>) para publicar un video en la cuenta de Danicuellar.ia.</li>
+      <li>Confirmar mediante polling de estado que una publicación se completó correctamente antes de marcarla como hecha en nuestra programación.</li>
+      <li>Enviarnos una notificación interna (por Telegram) cuando un video se publica o cuando falla, para que el equipo pueda revisarlo.</li>
+    </ul>
+    <p>Los datos nunca se usan para publicidad, perfilado, ni se venden ni ceden a terceros con fines comerciales.</p>
+  </section>
+
+  <section id="comparte">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Con quién se comparten</h2>
+    </div>
+    <p>Post-RRSS solo se comunica con los proveedores estrictamente necesarios para hacer su trabajo, todos ellos ya elegidos y contratados por Danicuellar.ia:</p>
+    <ul class="clean">
+      <li><strong>TikTok</strong> (Content Posting API) &mdash; para publicar el video y el texto en nuestra propia cuenta.</li>
+      <li><strong>Google</strong> (Sheets y Drive) &mdash; para leer la programación y descargar el archivo de video fuente, ambos de nuestra propiedad.</li>
+      <li><strong>Telegram</strong> &mdash; para avisar al equipo interno el resultado de cada publicación.</li>
+    </ul>
+    <p>Ningún dato se comparte con terceros ajenos a este flujo.</p>
+  </section>
+
+  <section id="seguridad">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2>Almacenamiento y seguridad</h2>
+    </div>
+    <p>Las credenciales y tokens de acceso se guardan como variables de entorno cifradas en la infraestructura de despliegue (Railway), nunca en texto plano dentro del código ni en repositorios públicos. El acceso a esa infraestructura está restringido al equipo de Danicuellar.ia.</p>
+  </section>
+
+  <section id="retencion">
+    <div class="section-head">
+      <span class="section-num">06</span>
+      <h2>Cuánto tiempo se conservan los datos</h2>
+    </div>
+    <p>Los videos se descargan de forma temporal al servidor solo mientras se publican, y se eliminan automáticamente en cuanto la publicación se confirma. La copia permanente del video sigue viviendo únicamente en el Google Drive de Danicuellar.ia, tal como ya existía antes de pasar por Post-RRSS.</p>
+  </section>
+
+  <section id="derechos">
+    <div class="section-head">
+      <span class="section-num">07</span>
+      <h2>Tus derechos y contacto</h2>
+    </div>
+    <p>Como Post-RRSS no procesa datos personales de terceros, no hay perfiles de usuarios externos que consultar, corregir o eliminar. Si tienes alguna pregunta sobre esta política o sobre cómo Danicuellar.ia usa la API de TikTok, escríbenos:</p>
+    <div class="card">
+      <p class="card-label">Contacto</p>
+      <p><a class="inline" href="mailto:danicuellar.ai@gmail.com">danicuellar.ai@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section id="cambios">
+    <div class="section-head">
+      <span class="section-num">08</span>
+      <h2>Cambios a esta política</h2>
+    </div>
+    <p>Podemos actualizar esta página si cambia el funcionamiento de Post-RRSS o los proveedores que usa. La fecha de la última actualización siempre aparece al inicio de esta página.</p>
+  </section>
+
+  <hr class="div" />
+
+  <header class="page">
+    <span class="eyebrow">Términos de servicio</span>
+    <h1 id="terminos">Términos de servicio de Post&#8209;RRSS</h1>
+    <p class="dek">Condiciones de uso de la herramienta interna Post-RRSS, aplicables únicamente a su operador: Danicuellar.ia.</p>
+  </header>
+
+  <section id="terminos-01">
+    <div class="section-head">
+      <span class="section-num">01</span>
+      <h2>Naturaleza del servicio</h2>
+    </div>
+    <p>Post-RRSS es software interno, no distribuido públicamente ni ofrecido como servicio a terceros. Su único propósito es automatizar la publicación de contenido propio de Danicuellar.ia en sus propias cuentas de redes sociales (Facebook, Instagram y TikTok), a partir de una hoja de cálculo de programación gestionada por el propio equipo.</p>
+  </section>
+
+  <section id="terminos-02">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2>Uso permitido</h2>
+    </div>
+    <ul class="clean">
+      <li>El software solo puede usarse para publicar contenido creado y aprobado por Danicuellar.ia en cuentas de redes sociales propiedad de Danicuellar.ia.</li>
+      <li>No está permitido usar Post-RRSS para publicar en cuentas de terceros, ni para automatizar contenido no autorizado por el equipo.</li>
+      <li>El uso de las credenciales de la API de TikTok se limita estrictamente a los scopes <code>video.publish</code> y <code>video.upload</code> necesarios para esta funcionalidad.</li>
+    </ul>
+  </section>
+
+  <section id="terminos-03">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2>Responsabilidad</h2>
+    </div>
+    <p>Danicuellar.ia es responsable de todo el contenido publicado a través de Post-RRSS. El software no modera ni valida el contenido de los videos o captions más allá de verificar que los campos requeridos estén completos en la hoja de programación.</p>
+  </section>
+
+  <section id="terminos-04">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2>Disponibilidad</h2>
+    </div>
+    <p>Post-RRSS se ofrece "tal cual", sin garantías de disponibilidad continua. Un fallo de publicación en alguna red se registra en un log interno y se notifica por Telegram al equipo, quien puede reintentarlo manualmente.</p>
+  </section>
+
+  <section id="terminos-05">
+    <div class="section-head">
+      <span class="section-num">05</span>
+      <h2>Contacto</h2>
+    </div>
+    <div class="card">
+      <p class="card-label">Contacto</p>
+      <p><a class="inline" href="mailto:danicuellar.ai@gmail.com">danicuellar.ai@gmail.com</a></p>
+    </div>
+  </section>
+
+  <footer class="page">
+    <span>Danicuellar.ia</span>
+    <span>Post-RRSS &mdash; publicador automático interno</span>
+  </footer>
+
+</div>
+
+</body></html>
